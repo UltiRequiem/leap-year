@@ -1,9 +1,8 @@
 {
-  "name": "is-leap-year",
+  "name": "check-leap-year",
   "version": "1.0.0",
   "description": "Check if a year is leap or not",
   "main": "index.js",
-  "scripts": {},
   "keywords": [
     "math",
     "leap"

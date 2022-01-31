@@ -22,7 +22,7 @@ Or use a CDN service:
 You can see examples of use in [test.js](./test.js)
 
 ```javascript
-import isLeapYear from "check-leap0year";
+import isLeapYear from "check-leap-year";
 
 console.log(isLeapYear());
 console.log(isLeapYear(2024));

@@ -1,16 +1,14 @@
-/* eslint-disable no-param-reassign */
-
-/**
- * @param {Number} [year=new Date()] Default is `new Date()`
- * @returns {boolean} Returns whether the year is a leap year or not
- */
 export default function isLeapYear(year = new Date()) {
-  if (!(year instanceof Date) && typeof year !== 'number') {
-    throw new TypeError(
-      `Expected "year" to be of type "Date" or "number" and got ${typeof year}.`
-    );
-  }
+	if (typeof year === 'string') {
+		year = new Date(year);
+	}
 
-  year = year instanceof Date ? year.getFullYear() : year;
-  return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+	if (!(year instanceof Date) && typeof year !== 'number') {
+		throw new TypeError(
+			`Expected "year" type to be "Date" | "number" | "string" and got ${typeof year}.`,
+		);
+	}
+
+	year = year instanceof Date ? year.getUTCFullYear() : year;
+	return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
 }

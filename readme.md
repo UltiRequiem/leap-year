@@ -1,7 +1,7 @@
 # leap-year
 
-[![CI](https://github.com/UltiRequiem/leap-year/actions/workflows/ci.yml/badge.svg)](https://github.com/UltiRequiem/ranmess/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/ultirequiem/leap-year/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/ranmess)
+[![CI](https://github.com/UltiRequiem/leap-year/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/leap-year/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/gh/ultirequiem/leap-year/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/leap-year)
 [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/leap_year/mod.ts)
 
 ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fdep-count%2Fx%2Fleap_year%2Fmod.ts)
@@ -12,7 +12,7 @@ Check if a year is a [leap year](https://en.wikipedia.org/wiki/Leap_year).
 
 ## Usage
 
-- [Deno 🚀](https://deno.land/x/ranmess)
+- [Deno 🚀](https://deno.land/x/leap_year)
 
 ```javascript
 import { isLeapYear } from "https://deno.land/x/leap_year/mod.ts";
@@ -24,10 +24,10 @@ isLeapYear("2000"); //=> false
 isLeapYear(new Date(2016, 1, 1)); //=> true
 ```
 
-- [Node.js 🐢](https://www.npmjs.com/package/ranmess)
+- [Node.js 🐢](https://www.npmjs.com/package/@ultirequiem/leap-year)
 
 ```typescript
-import { quotableRandom } from "ranmess";
+import { isLeapYear } from "@ultirequiem/leap-year";
 ```
 
 ### Browser

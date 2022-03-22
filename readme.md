@@ -12,7 +12,7 @@ Check if a year is a [leap year](https://en.wikipedia.org/wiki/Leap_year).
 
 ## Usage
 
-- [Deno 🚀](https://deno.land/x/leap_year)
+### [Deno 🚀](https://deno.land/x/leap_year)
 
 ```javascript
 import { isLeapYear } from "https://deno.land/x/leap_year/mod.ts";
@@ -24,7 +24,7 @@ isLeapYear("2000"); //=> false
 isLeapYear(new Date(2016, 1, 1)); //=> true
 ```
 
-- [Node.js 🐢](https://www.npmjs.com/package/@ultirequiem/leap-year)
+### [Node.js 🐢](https://www.npmjs.com/package/@ultirequiem/leap-year)
 
 ```typescript
 import { isLeapYear } from "@ultirequiem/leap-year";

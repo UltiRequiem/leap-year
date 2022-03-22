@@ -30,7 +30,7 @@ isLeapYear(new Date(2016, 1, 1)); //=> true
 import { isLeapYear } from "@ultirequiem/leap-year";
 ```
 
-### Browser
+### [Browser 🕸](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
 
 You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network)
 that you like.

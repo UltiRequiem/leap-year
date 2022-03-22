@@ -13,6 +13,8 @@ Deno.test("Main", () => {
   assert(isLeapYear(2020));
   assert(isLeapYear(2016));
 
+  assert(!isLeapYear(400));
+
   // My birthday :D
   assert(!isLeapYear("6 October 2006 00:07:00 GMT"));
 });

@@ -19,5 +19,5 @@ import { parseDateLike } from "https://deno.land/x/parse_datelike@0.0.1/mod.ts";
 export function isLeapYear(year: Date | string | number = new Date()) {
   year = parseDateLike(year);
 
-  return (year % 4 === 0 && year % 100 !== 0) ?? year % 400 === 0;
+  return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
 }

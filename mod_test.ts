@@ -9,7 +9,7 @@ import {
 Deno.test("Main", () => {
   assertEquals(typeof isLeapYear(), "boolean");
 
-  assert(!isLeapYear(2000));
+  assert(isLeapYear(2000));
   assert(isLeapYear(2020));
   assert(isLeapYear(2016));
 

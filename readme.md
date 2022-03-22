@@ -35,13 +35,13 @@ import { isLeapYear } from "@ultirequiem/leap-year";
 You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network)
 that you like.
 
-As an example, when using
+As an example, for
 [type module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 👇
 
 - [SkyPack](https://cdn.skypack.dev/@ultirequiem/leap-year)
 
-Or using a plain
+Or for a plain
 [script tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) 🦔
 
 - [jsdelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/leap-year)

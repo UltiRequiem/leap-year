@@ -1,3 +1,5 @@
+import { parseDateLike } from "https://deno.land/x/parse_datelike@0.0.1/mod.ts";
+
 /**
  * Check if a year is a [leap year](https://en.wikipedia.org/wiki/Leap_year).
  *
@@ -14,40 +16,8 @@
  * isLeapYear(new Date(2016, 1, 1)); //=> true
  * ```
  */
-export function isLeapYear(year: DateLike = new Date()) {
-  year = internalParse(year);
+export function isLeapYear(year: Date | string | number = new Date()) {
+  year = parseDateLike(year);
 
   return (year % 4 === 0 && year % 100 !== 0) ?? year % 400 === 0;
-}
-
-export function generateLeapYear(config: { min?: number; max?: DateLike }) {
-  const { min = 0, max = new Date() } = config;
-
-  const maxYear = internalParse(max);
-
-  const leapYears = [];
-
-  for (let year = min; year <= maxYear; year++) {
-    if (isLeapYear(year)) {
-      leapYears.push(year);
-    }
-  }
-
-  return leapYears;
-}
-
-export type DateLike = Date | number | string;
-
-function internalParse(date: DateLike) {
-  if (typeof date === "string") {
-    date = new Date(date);
-  }
-
-  if (!(date instanceof Date) && typeof date !== "number") {
-    throw new TypeError(
-      `Expected "year" type to be "Date" | "number" | "string" and got ${typeof date}.`,
-    );
-  }
-
-  return date instanceof Date ? date.getUTCFullYear() : date;
 }

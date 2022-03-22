@@ -1,9 +1,9 @@
 import { isLeapYear } from "./mod.ts";
 
 import {
-  assertThrows,
-  assertEquals,
   assert,
+  assertEquals,
+  assertThrows,
 } from "https://deno.land/std@0.128.0/testing/asserts.ts";
 
 Deno.test("Main", () => {

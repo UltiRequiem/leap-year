@@ -45,7 +45,7 @@ function internalParse(date: DateLike) {
 
   if (!(date instanceof Date) && typeof date !== "number") {
     throw new TypeError(
-      `Expected "year" type to be "Date" | "number" | "string" and got ${typeof date}.`
+      `Expected "year" type to be "Date" | "number" | "string" and got ${typeof date}.`,
     );
   }
 

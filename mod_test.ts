@@ -13,7 +13,7 @@ Deno.test("Main", () => {
   assert(isLeapYear(2020));
   assert(isLeapYear(2016));
 
-  assert(!isLeapYear(400));
+  assert(isLeapYear(400));
 
   // My birthday :D
   assert(!isLeapYear("6 October 2006 00:07:00 GMT"));
@@ -25,5 +25,5 @@ Deno.test("Handles Invalid Input", () => {
     isLeapYear([]);
     // @ts-ignore It should throw an error
     isLeapYear(new Blob());
-  }, TypeError);
+  });
 });

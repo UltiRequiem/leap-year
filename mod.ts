@@ -19,11 +19,11 @@ import { parseDateLike } from "https://deno.land/x/parse_datelike@0.0.1/mod.ts";
 export function isLeapYear(year?: Date | string | number): boolean;
 export function isLeapYear(
   year?: Date | string | number,
-  returnValue?: boolean
+  returnValue?: boolean,
 ): { year: number; result: boolean };
 export function isLeapYear(
   year: Date | string | number = new Date(),
-  returnValue = false
+  returnValue = false,
 ) {
   year = parseDateLike(year);
 

@@ -36,7 +36,7 @@ import { isLeapYear } from "@ultirequiem/leap-year";
 You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network)
 that you like.
 
-As an example, using
+As an example, with
 [ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) you
 can use [SkyPack](https://cdn.skypack.dev/@ultirequiem/leap-year), or for a
 plain
@@ -85,6 +85,12 @@ leap-year "13 October 2020 00:07:00 GMT" 400 345 --verbose # -v
 400 is a leap year.
 345 is not a leap year.
 ```
+
+## Related
+
+- [leap_year_utils](https://github.com/UltiRequiem/leap_year_utils): Utilities around this package
+
+- [parse_datelike](https://github.com/UltiRequiem/parse_datelike): Parse a number/string/date to a number/string/date
 
 ## Support
 

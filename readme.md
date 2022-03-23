@@ -36,9 +36,8 @@ import { isLeapYear } from "@ultirequiem/leap-year";
 You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network)
 that you like.
 
-As an example,
-[ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) ▶
-[SkyPack](https://cdn.skypack.dev/@ultirequiem/leap-year) /
+Eg. [ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+▶ [SkyPack](https://cdn.skypack.dev/@ultirequiem/leap-year) _/_
 [script tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) ▶
 [JSDelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/leap-year).
 

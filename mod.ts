@@ -16,8 +16,18 @@ import { parseDateLike } from "https://deno.land/x/parse_datelike@0.0.1/mod.ts";
  * isLeapYear(new Date(2016, 1, 1)); //=> true
  * ```
  */
-export function isLeapYear(year: Date | string | number = new Date()) {
+export function isLeapYear(year?: Date | string | number): boolean;
+export function isLeapYear(
+  year?: Date | string | number,
+  returnValue?: boolean
+): { year: number; result: boolean };
+export function isLeapYear(
+  year: Date | string | number = new Date(),
+  returnValue = false
+) {
   year = parseDateLike(year);
 
-  return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+  const result = (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+
+  return returnValue ? { result, year } : result;
 }

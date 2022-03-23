@@ -36,11 +36,10 @@ import { isLeapYear } from "@ultirequiem/leap-year";
 You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network)
 that you like.
 
-As an example, with
-[ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) you
-can use [SkyPack](https://cdn.skypack.dev/@ultirequiem/leap-year), or for a
-plain
-[script tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+As an example,
+[ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) ▶
+[SkyPack](https://cdn.skypack.dev/@ultirequiem/leap-year) /
+[script tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) ▶
 [JSDelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/leap-year).
 
 The API is the same on all this platforms.
@@ -88,9 +87,11 @@ leap-year "13 October 2020 00:07:00 GMT" 400 345 --verbose # -v
 
 ## Related
 
-- [leap_year_utils](https://github.com/UltiRequiem/leap_year_utils): Utilities around this package
+- [leap_year_utils](https://github.com/UltiRequiem/leap_year_utils): Utilities
+  around this package
 
-- [parse_datelike](https://github.com/UltiRequiem/parse_datelike): Parse a number/string/date to a number/string/date
+- [parse_datelike](https://github.com/UltiRequiem/parse_datelike): Parse a
+  number/string/date to a number/string/date
 
 ## Support
 

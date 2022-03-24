@@ -90,10 +90,13 @@ leap-year "13 October 2020 00:07:00 GMT" 400 345 --verbose # -v
 ## Related
 
 - [leap_year_utils](https://github.com/UltiRequiem/leap_year_utils): Utilities
-  around this package
+  around this package.
 
 - [parse_datelike](https://github.com/UltiRequiem/parse_datelike): Parse a
-  number/string/date to a number/string/date
+  number/string/date to a number/string/date.
+
+- [leap-year-api](https://github.com/UltiRequiem/leap-year-api): A REST API to
+  know if a year is leap or not.
 
 ## Support
 

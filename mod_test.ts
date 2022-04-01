@@ -4,7 +4,7 @@ import {
   assert,
   assertEquals,
   assertThrows,
-} from "https://deno.land/std@0.128.0/testing/asserts.ts";
+} from "https://deno.land/std@0.133.0/testing/asserts.ts";
 
 Deno.test("Main", () => {
   assertEquals(typeof isLeapYear(), "boolean");

@@ -4,10 +4,6 @@
 [![codecov](https://codecov.io/gh/ultirequiem/leap-year/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/leap-year)
 [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/leap_year/mod.ts)
 
-![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fdep-count%2Fx%2Fleap_year%2Fmod.ts)
-![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fupdates%2Fx%2Fleap_year%2Fmod.ts)
-[![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Flatest-version%2Fx%2Fleap_year%2Fmod.ts)](https://deno.land/x/leap_year)
-
 > A leap year is a calendar year that contains an additional day added to keep
 > the calendar year synchronized with the astronomical year or seasonal year.
 
@@ -112,4 +108,4 @@ Don't forget to start the repo ⭐
 
 ## Licence
 
-Licensed under the MIT License.
+Licensed under the MIT License 📄

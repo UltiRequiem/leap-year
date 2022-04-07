@@ -4,10 +4,9 @@
 [![codecov](https://codecov.io/gh/ultirequiem/leap-year/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/leap-year)
 [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/leap_year/mod.ts)
 
-> A leap year is a calendar year that contains an additional day added to keep
-> the calendar year synchronized with the astronomical year or seasonal year.
-
-Check if a year is a [leap year](https://en.wikipedia.org/wiki/Leap_year).
+Check if a year is a [leap year](https://en.wikipedia.org/wiki/Leap_year), that's
+a calendar year that contains an additional day added to keep the calendar year
+synchronized with the astronomical year or seasonal year.
 
 ## Usage
 

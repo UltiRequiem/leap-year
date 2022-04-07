@@ -1,16 +1,15 @@
 # leap-year
 
-[![CI](https://github.com/UltiRequiem/leap-year/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/leap-year/actions/workflows/ci.yaml)
-[![codecov](https://codecov.io/gh/ultirequiem/leap-year/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/leap-year)
-[![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/leap_year/mod.ts)
+[![Code Coverage](https://codecov.io/gh/ultirequiem/leap-year/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/leap-year)
+[![Deno Docs](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/leap_year/mod.ts)
 
-Check if a year is a [leap year](https://en.wikipedia.org/wiki/Leap_year), that's
-a calendar year that contains an additional day added to keep the calendar year
-synchronized with the astronomical year or seasonal year.
+Check if a year is a [leap year](https://en.wikipedia.org/wiki/Leap_year),
+that's a calendar year that contains an additional day added to keep the
+calendar year synchronized with the astronomical year or seasonal year.
 
 ## Usage
 
-### [Deno 🚀](https://deno.land/x/leap_year)
+### [Deno 🦕](https://deno.land/x/leap_year)
 
 ```javascript
 import { isLeapYear } from "https://deno.land/x/leap_year/mod.ts";
@@ -23,16 +22,15 @@ isLeapYear(new Date(2016, 1, 1)); //=> true
 isLeapYear("13 December 400 00:07:00 GMT", true); //=> { year: 400, result: true }
 ```
 
-### [Node.js 🐢](https://www.npmjs.com/package/@ultirequiem/leap-year)
+### [Node.js 🐢🚀](https://www.npmjs.com/package/@ultirequiem/leap-year)
 
 ```typescript
 import { isLeapYear } from "@ultirequiem/leap-year";
 ```
 
-### [Browser 🕸](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
+### [Browser 🌐](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
 
-You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network)
-that you like.
+You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) 🔥
 
 Eg. [ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 ▶ [SkyPack](https://cdn.skypack.dev/@ultirequiem/leap-year) _/_
@@ -98,12 +96,17 @@ leap-year "13 October 2020 00:07:00 GMT" 400 345 --verbose # -v
 Open an Issue, I will check it a soon as possible 👀
 
 If you want to hurry me up a bit
-[send me a tweet](https://twitter.com/intent/tweet?text=%40UltiRequiem%20) 😆
+[send me a tweet](https://twitter.com/UltiRequiem) 😆
 
 Consider [supporting me on Patreon](https://patreon.com/UltiRequiem) if you like
-my work 🚀
+my work 🙏
 
 Don't forget to start the repo ⭐
+
+## Versioning
+
+We use [Semantic Versioning](http://semver.org). For the versions available, see
+the [tags](https://github.com/UltiRequiem/leap-year/tags) 🏷️
 
 ## Licence
 

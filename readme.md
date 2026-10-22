@@ -1,6 +1,9 @@
 # leap-year
 
-[![Code Coverage](https://codecov.io/gh/ultirequiem/leap-year/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/leap-year)
+[![npm](https://img.shields.io/npm/v/@ultirequiem/leap-year?logo=npm&color=cb3837)](https://www.npmjs.com/package/@ultirequiem/leap-year)
+[![npm downloads](https://img.shields.io/npm/dm/@ultirequiem/leap-year?color=cb3837)](https://www.npmjs.com/package/@ultirequiem/leap-year)
+[![CI](https://github.com/UltiRequiem/leap-year/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/leap-year/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/gh/UltiRequiem/leap-year/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/leap-year)
 
 Check if a year is a [leap year](https://en.wikipedia.org/wiki/Leap_year),
 that's a calendar year that contains an additional day added to keep the
@@ -8,7 +11,7 @@ calendar year synchronized with the astronomical year or seasonal year.
 
 ## Usage
 
-ESM only: the same import works in Node.js, Bun and browsers.
+ESM only, types included: the same import works in Node.js, Bun and browsers.
 
 ```javascript
 import { isLeapYear } from "@ultirequiem/leap-year";
@@ -34,7 +37,7 @@ isLeapYear("13 December 400 00:07:00 GMT", true); //=> { year: 400, result: true
 
 ## Support
 
-Open an Issue, I will check it a soon as possible 👀
+Open an Issue, I will check it as soon as possible 👀
 
 If you want to hurry me up a bit
 [send me a tweet](https://twitter.com/UltiRequiem) 😆

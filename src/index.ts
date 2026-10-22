@@ -31,3 +31,32 @@ export function isLeapYear(
 
   return returnValue ? { result, year } : result;
 }
+
+/**
+ * List every leap year in a range, both ends included.
+ *
+ * @param min - First year to check, defaults to `0`.
+ * @param max - Last year to check, defaults to the current year.
+ *
+ * @example
+ * ```javascript
+ * import { leapYearsInRange } from "@ultirequiem/leap-year";
+ *
+ * leapYearsInRange(2000, 2020); //=> [2000, 2004, 2008, 2012, 2016, 2020]
+ * ```
+ */
+export function leapYearsInRange(
+  min: Date | string | number = 0,
+  max: Date | string | number = new Date(),
+): number[] {
+  const maxYear = parseDateLike(max);
+  const years: number[] = [];
+
+  for (let year = parseDateLike(min); year <= maxYear; year++) {
+    if (isLeapYear(year)) {
+      years.push(year);
+    }
+  }
+
+  return years;
+}

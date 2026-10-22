@@ -26,16 +26,13 @@ isLeapYear(new Date(2016, 1, 1)); //=> true
 isLeapYear("13 December 400 00:07:00 GMT", true); //=> { year: 400, result: true }
 ```
 
-## Related
+List the leap years in a range (both ends included):
 
-- [leap_year_utils](https://github.com/UltiRequiem/leap_year_utils): Utilities
-  around this package.
+```javascript
+import { leapYearsInRange } from "@ultirequiem/leap-year";
 
-- [parse_datelike](https://github.com/UltiRequiem/parse_datelike): Parse a
-  number/string/date to a number/string/date.
-
-- [leap-year-api](https://github.com/UltiRequiem/leap-year-api): A REST API to
-  know if a year is leap or not.
+leapYearsInRange(2000, 2020); //=> [2000, 2004, 2008, 2012, 2016, 2020]
+```
 
 ## Support
 

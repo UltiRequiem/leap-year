@@ -1,4 +1,4 @@
-import { isLeapYear } from "./mod.ts";
+import { isLeapYear } from "../src/index.js";
 
 isLeapYear(2014); //=> false
 isLeapYear(2016); //=> true

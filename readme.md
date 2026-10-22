@@ -1,12 +1,13 @@
 # leap-year
 
-Check if a year is a [leap year](https://en.wikipedia.org/wiki/Leap_year),
+Check whether a year is a leap year.
 
 [![npm](https://img.shields.io/npm/v/@ultirequiem/leap-year?logo=npm&color=cb3837)](https://www.npmjs.com/package/@ultirequiem/leap-year)
 [![npm downloads](https://img.shields.io/npm/dm/@ultirequiem/leap-year?color=cb3837)](https://www.npmjs.com/package/@ultirequiem/leap-year)
 [![CI](https://github.com/UltiRequiem/leap-year/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/leap-year/actions/workflows/ci.yaml)
 [![codecov](https://codecov.io/gh/UltiRequiem/leap-year/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/leap-year)
 
+Check if a year is a [leap year](https://en.wikipedia.org/wiki/Leap_year),
 that's a calendar year that contains an additional day added to keep the
 calendar year synchronized with the astronomical year or seasonal year.
 

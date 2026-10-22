@@ -1,4 +1,4 @@
-import { parse } from "https://deno.land/std@0.204.0/flags/mod.ts";
+import { parse } from "https://deno.land/std@0.224.0/flags/mod.ts";
 
 import { isLeapYear } from "./mod.ts";
 

@@ -1,7 +1,7 @@
 {
   "name": "@ultirequiem/leap-year",
   "version": "0.0.0-development",
-  "description": "Check if a year is leap.",
+  "description": "Check whether a year is a leap year.",
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -18,9 +18,11 @@
     "node": ">=20"
   },
   "keywords": [
-    "leap",
-    "year",
-    "date"
+    "leap-year",
+    "date",
+    "calendar",
+    "esm",
+    "typescript"
   ],
   "license": "MIT",
   "homepage": "https://leap-year.js.org",

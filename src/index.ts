@@ -1,4 +1,4 @@
-import { parseDateLike } from "https://deno.land/x/parse_datelike@0.0.1/mod.ts";
+import { parseDateLike } from "./parse-date-like.js";
 
 /**
  * Check if a year is a [leap year](https://en.wikipedia.org/wiki/Leap_year).
@@ -7,7 +7,7 @@ import { parseDateLike } from "https://deno.land/x/parse_datelike@0.0.1/mod.ts";
  *
  * @example
  * ```javascript
- * import { isLeapYear } from "https://deno.land/x/leap_year/mod.ts";
+ * import { isLeapYear } from "@ultirequiem/leap-year";
  *
  * isLeapYear(2014); //=> false
  * isLeapYear(2016); //=> true
